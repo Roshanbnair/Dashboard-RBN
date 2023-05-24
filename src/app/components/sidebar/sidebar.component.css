@@ -1,0 +1,36 @@
+/* nav-items */
+.nav-items {
+  padding-top: 40px;
+  position: relative;
+}
+
+/* nav-item */
+.nav-item {
+  padding: 25px 40px;
+  cursor: pointer;
+  transition: 1s;
+  font-size: 20px;
+}
+.nav-item:hover {
+  background-color: #17161e;
+  border-radius: 100px 0 100px 0;
+  transition: 0.3s;
+}
+
+/* active */
+.active {
+  background-color: green;
+  border-radius: 100px 0 100px 0;
+}
+
+/* i */
+i {
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+/* span */
+span {
+  display: inline;
+  transition: 0.5s all ease-in-out;
+}
